@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>TheDev</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Orbitron:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body>
+    <div class="site-main-wrapper">
+      <div class="branding-top animate-top">
+        <h2 class="thedev"><span>The</span>Dev</h2>
+      </div>
+      <button class="hamberger animate-top">
+        <img class="ham-img" src="./images/hamberger.svg" alt="" />
+      </button>
+       
+      <!-- nav sidebar for moblie -->
+      <div class="mobile-nav">
+        <div class="branding animate-top">
+          <h2 class="thedev"><span>The</span>Dev</h2>
+        </div>
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <hr />
+        <ul>
+          <li><a href="#">Home</a></li>
+
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Expertise</a></li>
+          <li><a href="#reviews">Experience</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social">
+          <a href="https://www.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        >
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://m.facebook.com/">
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="mailto: noahsullivan@gmail.com"> <i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- top section -->
+      <header class="video-container animate-video">
+       
+        <video autoplay muted loop id="myvideo" >
+          <source src="./video/bg video-vmake.mp4" type="video/mp4" />
+        </video>
+ 
+        <div class="container">
+          <nav
+            id="main-nav"
+            class="flex items-center justify-center navbar"
+            
+          >
+            <div class="left flex items-center justify-between">
+              <div class="branding">
+                <a href="" class="flex animate-top"
+                  ><h1 class="thedev"><span>The</span>Dev</h1></a
+                >
+              </div>
+              <div class="nav-links">
+                <a href="#">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#blog">EXPERTISE</a>
+                <a href="#reviews">EXPERIENCE</a>
+                <a href="#work">WORK</a>
+                <a href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </nav>
+
+          <div class="hero flex items-center justify-between">
+           
+            <div class="right flex-1 animate" >
+              <h6>Hello <span>There</span>,</h6>
+              <div class="ani-container">
+                <div class="typing"><span>I'm</span> Noah Sullivan</div>
+              </div>
+              <h3>
+                { <span>FullStack<span class="stack">Dev</span>eloper</span> }
+              </h3>
+              <p>
+              
+
+
+                As a committed lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Skilled in efficitur, volutpat, commodo, and vestibulum.
+I have a strong passion for interdum malesuada sapien and am eager
+to contribute to innovative tincidunt faucibus et, ullamcorper sem.
+              </p>
+              <div class="right-button">
+                <a href="./resume/Noah Sullivan.pdf" download="resume"> <button class="btn btn-secondary">DOWNLOAD CV</button></a>
+                
+              </div>
+            </div>
+
+
+            <div class="left flex-1 flex justify-center" data-aos="slide-right">
+              
+            </div>
+           
+          </div>
+        </div>
+       
+      </header>
+
+
+      <!-- about me -->
+      <section id="about" class="about ">
+        <div class="container flex items-center justify-around about-inner-wrap">
+          <div class="flex-1 ">
+            <img class="about-me-img animate" src="./images/istockphoto-866198538-612x612.jpg" alt="" />
+          </div>
+          <div class="flex-1 right" >
+            <h1 class="animate">About <span>Me</span></h1>
+            <h3 class="animate">Hello! I’m Noah Sullivan.</h3>
+            <p class="animate">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Pellentesque euismod, ligula vel consequat laoreet, nisi ex malesuada risus,
+eget vehicula libero velit non augue. Proin at neque vel quam ultricies feugiat.
+Vestibulum sit amet sapien non arcu fermentum vehicula at ut metus.
+Curabitur sodales, risus eget varius eleifend, lorem ligula dictum urna,
+et aliquam enim lorem nec libero. Suspendisse potenti. Fusce vulputate orci nec quam suscipit,
+vel gravida lorem volutpat. Praesent euismod nisi sit amet mauris auctor,
+vel scelerisque sem consectetur. Nullam ultrices ligula ac erat rhoncus cursus eget ut erat.
+
+
+            </p>
+            <div class="social animate">
+              <a href="https://www.linkedin.com/in/riyaj-kalegar-269754256/"
+              ><i class="fa-brands fa-linkedin"></i
+            >
+              <a href="https://www.instagram.com/riyazkalegar/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://m.facebook.com/riyaz.kalegar.75"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://twitter.com/riyajkalegar">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="mailto: riyazkalegar568@gmail.com">
+                <i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills epxertise -->
+      <section id="blog" class="blog " >
+        <div class="container">
+          <h1 class="section-heading animate"><span>My</span> Expertise</h1>
+          <p class="animate">
+            Experienced in crafting interactive web applications with
+            cutting-edge front-end and back-end technologies
+          </p>
+
+          <div class="card-wrapper" >
+            <div class="card animate" >
+              <div class="img-wrapper">
+                <img src="./images/frontend img.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <h1>Frontend development</h1>
+
+                <p>
+                  I have expertise in front-end development, specializing in
+                  <span><i>HTML</i></span>, <span><i>CSS</i></span>, and
+                  <span><i>JavaScript</i></span>, alongside <span><i>Bootstrap</i></span> for
+                  responsive design and <span><i>ReactJs</i></span> for building
+                  dynamic user interfaces.
+                </p>
+              </div>
+            </div>
+
+            <div class="card animate " >
+              <div class="img-wrapper">
+                <img src="./images/backend img.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <h1>Backend development</h1>
+                <p>
+                  Experienced in back-end development with
+                  <span><i>Node.js</i></span>, <span><i>Express.js</i></span>,
+                  <span><i>RESTful APIs</i></span>, <span><i>Java</i></span>,
+                  <span><i>Spring</i></span>, <span><i>Spring Boot</i></span>,
+                  <span><i>Hibernate</i></span>, <span><i>MySQL</i></span>,
+                  and <span><i>MongoDB</i></span>, focusing on efficient, scalable server-side applications.
+                </p>
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- work experiences -->
+      <section id="reviews" class="reviews " >
+        <div class="container">
+          <h1 class="section-heading animate"><span>Ex</span>periences</h1>
+          <p class="animate">
+            Extensive experience in full-stack development using modern web
+            technologies
+          </p>
+          <div class="slider ">
+            <div class="slide animate">
+              <img src="./images/experience.avif"  alt="" />
+              <p >
+                " I have gained practical experience during my internship at
+                Lorem ipsum dolor Services Pvt Ltd. Where i specialized in Full
+                Stack development and Web development"
+              </p>
+              <h3 >Intern @ Lorem ipsum dolor Services Pvt Ltd.</h3>
+            </div>
+            <div class="slide">
+              <img src="./images/experience1.avif"  alt="" />
+              <p >
+                " I have gained practical experience during my internship at
+                Lorem ipsum dolor Services Pvt Ltd. Where i specialized in Full
+                Stack development and Web development"
+              </p>
+              <h3 >Software Engineer @ Lorem ipsum dolor Services Pvt Ltd.</h3>
+            </div>
+            <div class="slide">
+              <img src="./images/experience2.png"  alt="" />
+              <p >
+                " I have gained practical experience during my internship at
+                Lorem ipsum dolor Services Pvt Ltd. Where i specialized in Full
+                Stack development and Web development"
+              </p>
+              <h3 >SDE @ Lorem ipsum dolor Services Pvt Ltd.</h3>
+            </div>
+          </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+
+
+      <!-- work (projects) -->
+      <section id="work" class="work " >
+        <div class="container">
+          <h1 class="section-heading animate"><span>My</span> Work</h1>
+          <p class="animate">
+            Developing responsive web applications with modern front-end and
+            back-end technologies
+          </p>
+
+          <div class="card-wrapper">
+            <div class="card animate" >
+              <div class="overlay">
+                <span>Project name</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  . Ut facilisis neque eu nunc ultricies, ac volutpat eros lobortis. Fusce sodales nunc a velit bibendum, vitae tempor turpis 
+                  accumsan. Aenean commodo eros sit amet sapien tincidunt efficitur</p>
+              </div>
+              <img src="./images/article-ph-3.png" alt="" />
+            </div>
+            <div class="card animate">
+              <div class="overlay">
+                <span>Project namet</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Ut facilisis neque eu nunc ultricies, ac volutpat eros lobortis. 
+                   usce sodales nunc a velit bibendum, vitae tempor turpis accumsan.
+                   Aenean commodo eros sit amet sapien tincidunt efficitur</p>
+              </div>
+              <img src="./images/ph-2.png" alt="" />
+              
+            </div>
+            <div class="card animate">
+              <div class="overlay">
+                <span>Project name</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Ut facilisis neque eu nunc ultricies, ac volutpat eros lobortis.
+                   Fusce sodales nunc a velit bibendum, vitae tempor turpis accumsan. 
+                  Aenean commodo eros sit amet sapien tincidunt efficitur"</p>
+              </div>
+              <img src="./images/article-ph-2.png" alt="" />
+            </div>
+            <div class="card animate" >
+              <div class="overlay">
+                <span>Project name</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                   Ut facilisis neque eu nunc ultricies, ac volutpat eros lobortis
+                   . Fusce sodales nunc a velit bibendum, vitae tempor turpis accumsan.
+                   Aenean commodo eros sit amet sapien tincidunt efficitur</p>
+              </div>
+              <img src="./images/article-ph-1.png" alt="" />
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+       <!-- freelancer -->
+      <section class="freelancer " >
+        <h1 class="animate">I Am Available For Freelancer.</h1>
+       <div>
+        <p class="animate">
+          Available for freelance work in web development, specializing in both
+          front-end and back-end technologies.
+        </p>
+        <a href="./resume/Noah Sullivan.pdf" download="resume" > <button class="btn btn-primary animate">DOWNLOAD CV</button></a>
+         
+       </div>      
+      </section>
+
+      <!-- contact us -->
+      <section id="contact" class="contact " >
+        <div class="container">
+          <h1 class="section-heading animate">Contact <span>Us</span></h1>
+          <p class="animate">Reach out to us for inquiries, support, or feedback assistance</p>
+          <div class="card-wrapper">
+            <div class="card animate">
+              <i class="fa-solid fa-phone"></i>
+              <h1>Call Us On</h1>
+              <h6>91+ 222-333-444</h6>
+            </div>
+            <div class="card animate">
+              <i class="fa-solid fa-envelope"></i>
+              <h1>Email Us At</h1>
+              <h6>noahsullivan@gamil.com</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+        <!-- footer -->
+      <footer  >
+        
+        <div class="logo">
+          <a href="" class="flex">
+            <h1 class="thedev footer-logo animate"><span>Ctrl+ </span>me</h1></a
+          >
+        </div>
+        <div class="social-links animate" >
+          <div class="footer-socials animation" >
+            <a href="https://www.linkedin.com/"
+            ><i class="fa-brands fa-linkedin"></i
+          >
+            <a href="https://github.com/"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://m.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/">
+              <i class="fa-brands fa-x-twitter"></i
+            ></a>
+
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a  href="mailto: noahsullivan@gamil.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+          <div class="nav-links animation animate" >
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#blog">EXPERTISE</a>
+            <a href="#reviews">EXPERIENCE</a>
+            <a href="#work">WORK</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+        </div>
+        <div class="copyright animate" >
+          @2024 <span>The</span>Dev 
+        </div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+
+    <!--Animation - https://scrollrevealjs.org/ -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      ScrollReveal({ reset: true,
+        distance: "60px", 
+        duration: 1500, 
+        delay: 300
+        });
+
+      ScrollReveal().reveal('.animate ', { delay: 200, origin:"bottom" });
+      ScrollReveal().reveal('.navbar,.animate-top', { delay: 300  , origin: "top"});
+     
+    </script>
+  </body>
+</html>
+
