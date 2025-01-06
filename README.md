@@ -26,7 +26,7 @@ To run this project locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/The-Dev03/Pro-Developer-Portfolio-Website.git
+   git clone https://github.com/riyaj-kalegar03/YT-Portfolio-Website.git
    ```
 
 2. **Navigate to the project directory:**
